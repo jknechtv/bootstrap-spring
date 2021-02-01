@@ -1,0 +1,44 @@
+body{
+  padding-bottom: 150px;
+}
+
+/* User profiles */
+.user-profile{
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-profile img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Dropzone component */
+.dropzone{
+  background-color: #c8dadf;
+  outline: 2px dashed #92b0b3;
+  outline-offset: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 300px;
+}
+
+.dropzone p{
+  font-size: 1.25rem;
+  color: #0f3c4b;
+}
+
+.dropzone p span{
+  font-size: 1.35rem;
+  font-weight: bold;
+}
+
+.dropzone:hover p span{
+  color: #39bfd3;
+}
